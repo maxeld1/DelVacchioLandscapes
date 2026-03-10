@@ -3,283 +3,306 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Elder Landscaping LLC | Landscaping & Hardscaping</title>
+    <title>Del Vacchio Landscapes Inc. | Estate-Caliber Outdoor Design</title>
     <meta
       name="description"
-      content="Elder Landscaping LLC delivers elegant landscaping and hardscaping services across Philadelphia and nearby areas."
+      content="Del Vacchio Landscapes Inc. creates refined, estate-caliber landscapes and hardscapes with precise execution and white-glove service."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="backdrop" aria-hidden="true"></div>
-    <div class="page">
+    <div class="page-shell" id="home">
       <header class="site-header">
-        <div class="header-inner">
-          <nav class="nav-group nav-left" aria-label="Primary navigation left">
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#process">Process</a>
-          </nav>
+        <a class="brand" href="#home" aria-label="Del Vacchio Landscapes home">
+          <img src="images/delvacchio_logo.png" alt="Del Vacchio Landscapes Inc. logo" />
+        </a>
 
-          <a class="brand" href="#home" aria-label="Elder Landscaping LLC home">
-            <img
-              class="brand-logo"
-              src="images/elder_landscaping_logo.png"
-              alt="Elder Landscaping LLC logo"
-            />
-          </a>
-
-          <nav class="nav-group nav-right" aria-label="Primary navigation right">
-            <a href="#gallery">Gallery</a>
-            <a href="#testimonials">Testimonials</a>
-            <a href="#contact">Contact</a>
-            <a class="header-cta" href="tel:+12159091420">(215) 909-1420</a>
-          </nav>
-
-          <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </div>
-
-        <nav class="mobile-menu" aria-label="Mobile navigation">
+        <nav class="desktop-nav" aria-label="Primary">
+          <a href="#work">Work</a>
           <a href="#services">Services</a>
-          <a href="#portfolio">Portfolio</a>
           <a href="#process">Process</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#reviews">Reviews</a>
           <a href="#contact">Contact</a>
-          <a class="header-cta" href="tel:+12159091420">Call (215) 909-1420</a>
+        </nav>
+
+        <a class="header-call" href="tel:+12159091420">(215) 909-1420</a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Open navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="mobile-nav" aria-label="Mobile">
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+          <a class="header-call" href="tel:+12159091420">Call (215) 909-1420</a>
         </nav>
       </header>
 
       <main>
-        <section class="hero" id="home">
-          <div class="hero-media reveal-target">
-            <img src="images/elder-landscaping-10.webp" alt="Finished landscaping and hardscaping project" />
+        <section class="hero section-rule">
+          <div class="hero-topline reveal-target">
+            <p class="eyebrow">Del Vacchio Landscapes Inc.</p>
+            <p class="hero-location">Philadelphia Main Line and surrounding properties</p>
           </div>
-          <div class="hero-content reveal-target">
-            <p class="eyebrow">Philadelphia And Nearby Areas</p>
-            <h1>Elegant outdoor spaces, built to impress and made to last.</h1>
-            <p>
-              Transform your outdoor space with our exceptional landscaping and hardscaping services. We
-              specialize in turning your garden dreams into a breathtaking reality. Our dedicated team offers
-              affordable, friendly, and efficient service.
+
+          <div class="hero-grid">
+            <div class="hero-copy reveal-target">
+              <p class="kicker">Landscape Design / Hardscape Craft / Seasonal Installations</p>
+              <h1>Landscape and hardscape design with a sharper, more finished point of view.</h1>
+              <p class="lead">
+                Del Vacchio Landscapes designs, builds, and maintains high-end outdoor spaces with cleaner
+                lines, stronger structure, and a more architectural point of view.
+              </p>
+              <div class="hero-actions">
+                <a class="btn btn-solid" href="#contact">Book Consultation</a>
+                <a class="btn btn-outline" href="#work">View Projects</a>
+              </div>
+            </div>
+
+            <figure class="hero-image reveal-target">
+              <img src="images/delvac_1.webp" alt="Finished front yard and hardscape detail" />
+            </figure>
+          </div>
+
+          <div class="hero-ledger reveal-target" aria-label="Company highlights">
+            <p>5.0 rated service</p>
+            <p>Landscape + hardscape integration</p>
+            <p>Professional, on-time crews</p>
+            <p>White-glove project finish</p>
+          </div>
+        </section>
+
+        <section class="section section-rule editorial-intro" id="work">
+          <div class="section-head reveal-target">
+            <p class="eyebrow">Featured Work</p>
+            <h2>Properties that read as complete from the curb, not decorated as an afterthought.</h2>
+            <p class="section-note">
+              Landscape structure, hardscape proportion, and planting restraint are handled as one composition,
+              not separate trades.
             </p>
-            <p class="hero-spanish">
-              ¡Hablamos español! Llámanos ahora para obtener un estimado personalizado.
+          </div>
+
+          <div class="editorial-grid">
+            <article class="feature-story reveal-target">
+              <div class="story-meta">
+                <span>01</span>
+                <p>Estate curb appeal programs</p>
+              </div>
+              <div class="story-copy">
+                <h3>Clean geometry, planting restraint, and first-impression control.</h3>
+                <p>
+                  Bed design, edge definition, and seasonal color planning structured to strengthen the
+                  architecture rather than compete with it.
+                </p>
+              </div>
+            </article>
+
+            <figure class="feature-image reveal-target feature-image-large">
+              <img src="images/delvac_4.webp" alt="Luxury property landscape project" loading="lazy" />
+            </figure>
+
+            <figure class="feature-image reveal-target">
+              <img src="images/delvac_2.webp" alt="Stonework and planting composition" loading="lazy" />
+            </figure>
+
+            <article class="feature-story reveal-target story-quote">
+              <p>
+                "The work is beyond meticulous. They show up when they say and complete the project in a
+                timely yet thorough manner."
+              </p>
+              <span>Michael G · Local Guide</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="section section-rule services" id="services">
+          <div class="section-head reveal-target">
+            <p class="eyebrow">Scope</p>
+            <h2>Built around landscape discipline, not generic package services.</h2>
+            <p class="section-note">
+              From renovation work to ongoing care, each service is structured to improve how the full
+              property reads and performs over time.
             </p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="#contact">Schedule Your Estimate</a>
-              <a class="btn btn-ghost" href="#gallery">View Completed Work</a>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-item reveal-target">
+              <span>01</span>
+              <h3>Landscape Renovation</h3>
+              <p>Planting plans, bed reshaping, grading adjustments, and visual refinement across the full property.</p>
+            </article>
+            <article class="service-item reveal-target">
+              <span>02</span>
+              <h3>Hardscape Construction</h3>
+              <p>Patios, walkways, retaining elements, and stone features executed with structural discipline.</p>
+            </article>
+            <article class="service-item reveal-target">
+              <span>03</span>
+              <h3>Ongoing Property Care</h3>
+              <p>Maintenance programs that keep edge quality, bed composition, and presentation standards intact.</p>
+            </article>
+            <article class="service-item reveal-target">
+              <span>04</span>
+              <h3>Seasonal Lighting & Decor</h3>
+              <p>Holiday installations with controlled routing, balanced composition, and reliable removal service.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section section-rule process" id="process">
+          <div class="process-layout">
+            <div class="process-copy reveal-target">
+              <p class="eyebrow">Process</p>
+              <h2>Design fluency. Construction rigor. Clear execution.</h2>
+              <p>
+                Del Vacchio Landscapes is hired by clients who care about finish quality. The process stays
+                direct: define the scope well, build it cleanly, and leave the property better resolved than
+                when we arrived.
+              </p>
+            </div>
+
+            <div class="process-side reveal-target">
+              <p class="process-note">
+                Each phase is meant to reduce ambiguity, protect the property, and keep the finished work
+                reading as one complete system.
+              </p>
+
+              <ol class="process-list">
+                <li>
+                  <strong>Consultation</strong>
+                  <p>On-site walkthrough, priorities, layout review, and detailed recommendations.</p>
+                </li>
+                <li>
+                  <strong>Build</strong>
+                  <p>Professional crews, disciplined scheduling, and material execution with close oversight.</p>
+                </li>
+                <li>
+                  <strong>Finish</strong>
+                  <p>Final quality pass, cleanup, and long-term guidance for care and seasonal continuity.</p>
+                </li>
+              </ol>
             </div>
           </div>
         </section>
 
-        <section class="section services" id="services">
-          <div class="section-head reveal-target">
-            <p class="eyebrow">What We Offer</p>
-            <h2>Landscaping and hardscaping with clean execution</h2>
-          </div>
-          <div class="service-grid">
-            <article class="service-card reveal-target">
-              <h3>Landscape Design</h3>
-              <p>Planting plans, bed shaping, and visual upgrades tailored to your property layout.</p>
-            </article>
-            <article class="service-card reveal-target">
-              <h3>Hardscape Installation</h3>
-              <p>Patios, walkways, edging, and stone features built for beauty, structure, and durability.</p>
-            </article>
-            <article class="service-card reveal-target">
-              <h3>Property Maintenance</h3>
-              <p>Reliable upkeep that keeps your home or business exterior sharp all season long.</p>
-            </article>
-            <article class="service-card reveal-target">
-              <h3>Yard Transformations</h3>
-              <p>Full front and backyard makeovers designed around your goals and budget.</p>
-            </article>
+        <section class="section section-rule image-band">
+          <div class="image-band-grid">
+            <figure class="band-image reveal-target">
+              <img src="images/delvac_3.webp" alt="Completed residential landscape transformation" loading="lazy" />
+            </figure>
+            <figure class="band-image reveal-target">
+              <img src="images/delvac_team.webp" alt="Team installing project details" loading="lazy" />
+            </figure>
+            <figure class="band-image reveal-target">
+              <img src="images/delvac_team_2.webp" alt="Crew finalizing project" loading="lazy" />
+            </figure>
           </div>
         </section>
 
-        <section class="section portfolio" id="portfolio">
+        <section class="section section-rule reviews" id="reviews">
           <div class="section-head reveal-target">
-            <p class="eyebrow">Featured Projects</p>
-            <h2>Selected work from Elder Landscaping LLC</h2>
-          </div>
-          <div class="portfolio-grid">
-            <article class="portfolio-card reveal-target">
-              <img src="images/elder-landscaping-1.webp" alt="Front yard landscaping project" loading="lazy" />
-              <div>
-                <h3>Front Entrance Upgrade</h3>
-                <p>Balanced plantings and refined walkway detail for stronger curb appeal.</p>
-              </div>
-            </article>
-            <article class="portfolio-card reveal-target">
-              <img src="images/elder-landscaping-4.webp" alt="Backyard hardscape project" loading="lazy" />
-              <div>
-                <h3>Backyard Hardscape Build</h3>
-                <p>Stone-focused design with cleaner transitions between lawn and patio zones.</p>
-              </div>
-            </article>
-            <article class="portfolio-card reveal-target">
-              <img src="images/elder-landscaping-7.webp" alt="Landscape renovation project" loading="lazy" />
-              <div>
-                <h3>Full Yard Renovation</h3>
-                <p>Complete refresh with improved form, circulation, and long-term maintainability.</p>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section class="section process" id="process">
-          <div class="section-head reveal-target">
-            <p class="eyebrow">Our Process</p>
-            <h2>Simple steps from estimate to final walkthrough</h2>
-          </div>
-          <ol class="process-list">
-            <li class="reveal-target">
-              <h3>1. Consultation</h3>
-              <p>We visit your property, discuss priorities, and provide a clear estimate.</p>
-            </li>
-            <li class="reveal-target">
-              <h3>2. Plan And Build</h3>
-              <p>Our team executes the approved scope with efficient scheduling and clean workmanship.</p>
-            </li>
-            <li class="reveal-target">
-              <h3>3. Final Detail</h3>
-              <p>We finish with a detailed review to ensure the result matches your vision.</p>
-            </li>
-          </ol>
-        </section>
-
-        <section class="section gallery" id="gallery">
-          <div class="section-head reveal-target">
-            <p class="eyebrow">Project Gallery</p>
-            <h2>Real jobs completed by our team</h2>
-          </div>
-          <div class="gallery-grid">
-            <figure class="gallery-item reveal-target tall"><img src="images/elder-landscaping-2.webp" alt="Landscaping project photo 2" loading="lazy" /></figure>
-            <figure class="gallery-item reveal-target"><img src="images/elder-landscaping-3.webp" alt="Landscaping project photo 3" loading="lazy" /></figure>
-            <figure class="gallery-item reveal-target"><img src="images/elder-landscaping-5.webp" alt="Landscaping project photo 5" loading="lazy" /></figure>
-            <figure class="gallery-item reveal-target wide"><img src="images/elder-landscaping-6.webp" alt="Landscaping project photo 6" loading="lazy" /></figure>
-            <figure class="gallery-item reveal-target"><img src="images/elder-landscaping-8.webp" alt="Landscaping project photo 8" loading="lazy" /></figure>
-            <figure class="gallery-item reveal-target"><img src="images/elder-landscaping-9.webp" alt="Landscaping project photo 9" loading="lazy" /></figure>
-          </div>
-        </section>
-
-        <section class="section testimonials" id="testimonials">
-          <div class="section-head reveal-target">
-            <p class="eyebrow">Client Experience</p>
-            <h2>Friendly, efficient, and detail-focused service</h2>
-          </div>
-          <div class="testimonial-wrap">
-            <article class="testimonial reveal-target">
-              <p>
-                "We contacted Elder Landscaping for a patio and walkway for our backyard. Elder was very
-                helpful with the look that I was going for. Elder and his crew arrived on time and
-                completed the job as promised. We are very pleased with the outcome!"
-              </p>
-              <span>Jeannette Mackey • 8 months ago</span>
-            </article>
-            <article class="testimonial reveal-target">
-              <p>
-                "Our yard had gotten pretty out of control. Elder and his team were super responsive and
-                did an incredible job weeding, mowing, trimming and even helping us remove some old clothes
-                line polls that were an eyesore. The yard looks shockingly good, would highly recommend."
-              </p>
-              <span>Alex Ristow • 4 months ago</span>
-            </article>
-            <article class="testimonial reveal-target">
-              <p>
-                "EXTREMELY impressed with how hardworking and meticulous they were! I LOVE the work they
-                did. It was a big job and they definitely delivered! 11 out of 10! I will definitely work
-                with them again. Thank you, Elder!"
-              </p>
-              <span>Missy S • Edited 3 weeks ago</span>
-            </article>
-            <article class="testimonial reveal-target">
-              <p>
-                "Elder and his crew are the best. It's my second time to use their service. They help us to
-                fix the side work last winter. And this time they help us to cut the trees and trim the
-                branches all around the house. Also they installed the fence for our back yard. The job is
-                great and the price is reasonable."
-              </p>
-              <span>Jin Y • 2 years ago</span>
-            </article>
-            <article class="testimonial reveal-target">
-              <p>
-                "Contacted Elder Landscaping to handle regular lawn care when I was going to be away from my
-                property. They did an excellent job, so when I had a bigger landscaping job, I asked them
-                for an estimate. They gave me a reasonable price, and I'm very happy with their services!"
-              </p>
-              <span>Dan Wanuga • 8 months ago</span>
-            </article>
-          </div>
-        </section>
-
-        <section class="section contact" id="contact">
-          <div class="contact-card reveal-target">
-            <p class="eyebrow">Request An Estimate</p>
-            <h2>Let us plan your next outdoor upgrade</h2>
-            <p>
-              Don't hesitate to contact us today to schedule your estimate. We proudly serve
-              Philadelphia and nearby areas.
+            <p class="eyebrow">Reviews</p>
+            <h2>Client feedback that speaks to execution.</h2>
+            <p class="section-note">
+              The common thread is consistency: clear communication, punctual crews, and a finish level clients
+              notice immediately.
             </p>
-            <div class="contact-actions">
-              <a class="btn btn-primary" href="tel:+12159091420">Call (215) 909-1420</a>
-              <a class="btn btn-ghost" href="mailto:hello@elderlandscapingllc.com">hello@elderlandscapingllc.com</a>
-            </div>
           </div>
-          <div class="contact-meta reveal-target">
-            <h3>Address</h3>
-            <p>728 Thorndale Rd, Aldan, PA 19018</p>
-            <h3>Hours</h3>
-            <p>Monday-Saturday: 6:00 AM-5:30 PM<br />Sunday: Open 24 hours</p>
-            <h3>Service Area</h3>
-            <p>Philadelphia and nearby areas</p>
+
+          <div class="reviews-layout">
+            <article class="review-card reveal-target">
+              <p>
+                "Del Vacchio Landscapes is simply among the best in the business. They can meet just about any
+                of your landscape, hardscape, and Christmas decor needs. The staff are ultimate professionals."
+              </p>
+              <span>Michael G · Edited 2 months ago</span>
+            </article>
+            <article class="review-card reveal-target">
+              <p>
+                "Chris's crew was perfect. They arrived on time, put up our Christmas lights, and finished
+                quickly while making sure our needs were met."
+              </p>
+              <span>Nicole Sage · 4 months ago</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="section contact section-rule" id="contact">
+          <div class="contact-layout">
+            <div class="contact-copy reveal-target">
+              <p class="eyebrow">Consultation</p>
+              <h2>Ready to give the property a more considered point of view?</h2>
+              <p>
+                We build tailored proposals for landscape renovations, hardscape construction, maintenance
+                plans, and seasonal decor installations.
+              </p>
+              <p class="contact-note">
+                Most clients come to us when the property feels under-resolved, inconsistent, or overdue for a
+                cleaner overall direction.
+              </p>
+            </div>
+
+            <div class="contact-panel reveal-target">
+              <a class="btn btn-solid" href="tel:+12159091420">Call (215) 909-1420</a>
+              <a class="btn btn-outline" href="mailto:info@delvacchiolandscapes.com">Email The Studio</a>
+              <p>Del Vacchio Landscapes Inc. serves Philadelphia-area homeowners who want clean execution and lasting value.</p>
+            </div>
           </div>
         </section>
       </main>
 
       <footer class="site-footer">
-        <img src="images/elder_landscaping_logo.png" alt="Elder Landscaping LLC logo" />
-        <p>© 2026 Elder Landscaping LLC</p>
+        <img src="images/delvacchio_logo.png" alt="Del Vacchio Landscapes logo" />
+        <p>© 2026 Del Vacchio Landscapes Inc.</p>
         <a href="#home">Back to top</a>
       </footer>
     </div>
 
     <script>
-      const header = document.querySelector(".site-header");
-      const menuToggle = document.querySelector(".menu-toggle");
+      const header = document.querySelector('.site-header');
+      const menuToggle = document.querySelector('.menu-toggle');
 
       if (header && menuToggle) {
-        menuToggle.addEventListener("click", () => {
-          const isOpen = header.classList.toggle("open");
-          menuToggle.setAttribute("aria-expanded", String(isOpen));
+        menuToggle.addEventListener('click', () => {
+          const open = header.classList.toggle('open');
+          menuToggle.setAttribute('aria-expanded', String(open));
         });
       }
 
-      const revealTargets = document.querySelectorAll(".reveal-target");
+      document.querySelectorAll('.mobile-nav a').forEach((link) => {
+        link.addEventListener('click', () => {
+          if (header && menuToggle) {
+            header.classList.remove('open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+          }
+        });
+      });
+
+      const revealTargets = document.querySelectorAll('.reveal-target');
       const observer = new IntersectionObserver(
         (entries, obs) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
-              entry.target.classList.add("reveal-in");
+              entry.target.classList.add('reveal-in');
               obs.unobserve(entry.target);
             }
           });
         },
-        { threshold: 0.2 }
+        { threshold: 0.14 }
       );
 
-      revealTargets.forEach((el) => observer.observe(el));
+      revealTargets.forEach((node) => observer.observe(node));
     </script>
   </body>
 </html>
